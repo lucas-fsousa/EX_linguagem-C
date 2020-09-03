@@ -21,13 +21,13 @@ int main()
     scanf("%f", &valorHora);
 
     // Realização dos cálculos
-    salario = horasTrab * valorHora;
+    salario = (horasTrab * valorHora) * 30;
     adicional = salFamilia * filhos;
     salario = salario + adicional;
 
     // Informa o resultado final para o usuário
     printf("O funcionário ID%d recebe R$%.2f por hora trabalhada.\n", id, valorHora);
-    printf("Será pago um total de R$%.2f com o salário família.", salario);
+    printf("Ao mês será pago um total de R$%.2f com o salário família.", salario);
     
     // Retorno de erros
     return 0;
