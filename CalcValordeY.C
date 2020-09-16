@@ -1,7 +1,7 @@
 #include <stdio.h> // Biblioteca para utilizar comando de entrada e saida de dados
 #include <math.h> // Biblioteca matematica para utilizar o "POW" para calcular potência.
 
-int main(){ // Código principal
+int main(){ // Inicio do Código principal
     float x, y; // Declaração de variavel X e Y
     printf("Digite o valor de X: "); // Informa ao usuario o que deve ser digitado
     scanf("%f", &x); // Faz a leitura do numero digitado pelo usuario
@@ -14,4 +14,4 @@ int main(){ // Código principal
     }
     printf("O valor de Y sera %.2f, pois o valor de X equivale a %.2f", y, x); // Informa ao usuario o resultado final
     return 0; // Retorna erros caso ocorram
-}
+} // Fim do código principal

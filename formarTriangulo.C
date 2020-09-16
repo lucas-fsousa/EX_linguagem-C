@@ -23,10 +23,10 @@ int main(void){ // Inicio do código principal
     scanf("%f", &l1); //Faz a leitura do que o usuario digitar e armazena na variavel l1
     printf("Digite o valor correspondente ao terceiro lado do triangulo: ");
     scanf("%f", &l2); //Faz a leitura do que o usuario digitar e armazena na variavel l2
-    if(l0 + l1 > l2 && l1 + l2 > l0 && l2+l0 > l1){ // Verifica o tamanho dos lados
-        printf("os lados %.1f x %.1f x %.1f pode formar um triangulo!", l0, l1, l2);
-    }else{
+    if(l0 + l1 > l2 && l1 + l2 > l0 && l2+l0 > l1){ // Verifica o tamanho dos lados para identificar se é possivel formar um triangulo.
+        printf("os lados %.1f x %.1f x %.1f pode formar um triangulo!", l0, l1, l2); // Se a condição de verificação for verdadeira, informará na tela o resultado para o usuario
+    }else{ // Se a condicação retornar falso, informará na tela para o usuario que não é possivel formar um triangulo
         printf("Os lados %.1f x %.1f x %.1f nao podem formar um triangulo!", l0, l1, l2);
     }
-    return 0;
-}
+    return 0; // Retorna erros caso ocorram
+} // Fim do código principal
