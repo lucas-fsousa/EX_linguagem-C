@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 int main(void){
     float n0, n1, n2, n3, soma;
